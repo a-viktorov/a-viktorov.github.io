@@ -1,3 +1,4 @@
+/* normalize.css v3.0.2 | MIT License | git.io/normalize */
 * {
   box-sizing: border-box; }
 
@@ -16,7 +17,19 @@ a {
   a:hover {
   color: #F57C00;
     text-decoration: underline; }
-
+ul {
+  list-style: none;
+}
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
@@ -75,6 +88,7 @@ a {
 @media screen and (max-width: 40em) {
   .project-tagline {
     font-size: 1rem; } }
+
 
 .main-content :first-child {
   margin-top: 0; }
