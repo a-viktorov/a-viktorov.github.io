@@ -125,7 +125,6 @@ a {
   margin: 1rem 0;
   background-color: #CFD8DC;
   border: 0; }
-
 @media screen {
   .main-content {
     padding: 1rem 3rem;
@@ -135,13 +134,8 @@ a {
   padding-top: 0.5rem;
   margin-top: 13rem;
   border-top: solid 1.5px #CFD9DC; }
-
-.site-footer-owner {
-  display: block; }
-
 .site-footer-credits {
   color: #9E9E9E; }
-
 @media screen {
   .site-footer {
     text-align: right;
