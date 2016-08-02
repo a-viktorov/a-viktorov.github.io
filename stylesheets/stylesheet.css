@@ -17,62 +17,12 @@ a {
   color: #F57C00;
     text-decoration: underline; }
 
-.btn {
-  display: inline-block;
-  margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 0.3rem;
-  transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
-  .btn + .btn {
-    }
-
-.btn:hover {
-  color: rgba(255, 255, 255, 0.8);
-  text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.3); }
-
-@media screen and (min-width: 40em) and (max-width: 65em) {
-  .btn {
-    padding: 0.6rem 0.9rem;
-    font-size: 0.9rem; } }
-
-@media screen and (max-width: 40em) {
-  .btn {
-    display: block;
-    width: 100%;
-    padding: 0.75rem;
-    font-size: 0.9rem; }
-    .btn + .btn {
-      margin-top: 1rem;
-      margin-left: 0; } }
-
-.project-name {
-  margin-top: 0;
-  margin-bottom: 0.1rem; }
-
-@media screen and (max-width: 40em) {
-  .project-name {
-    font-size: 1.75rem; } }
-
 .project-tagline {
   margin-bottom: 7rem;
   font-weight: normal;
-  opacity: 0.7; }
+  opacity: 0.5; }
 
-@media screen and (min-width: 65em) {
-  .project-tagline {
-    font-size: 1.25rem; } }
-
-@media screen and (min-width: 40em) and (max-width: 65em) {
-  .project-tagline {
-    font-size: 1.15rem; } }
-
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 50em) {
   .project-tagline {
     font-size: 1rem; } }
 
@@ -170,7 +120,7 @@ a {
     padding: 0;
     margin-bottom: 1rem; }
 .main-content hr {
-  height: 1px;
+  height: 2px;
   padding: 0;
   margin: 1rem 0;
   background-color: #CFD8DC;
@@ -178,7 +128,7 @@ a {
 
 @media screen {
   .main-content {
-    padding: 2rem 3rem;
+    padding: 1rem 3rem;
     font-size: 1rem; } }
 
 .site-footer {
@@ -195,4 +145,4 @@ a {
 @media screen {
   .site-footer {
     text-align: right;
-    font-size: 0.70rem; } }
+    font-size: 0.7rem; } }
