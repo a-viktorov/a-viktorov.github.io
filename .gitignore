@@ -1,0 +1,85 @@
+*.mode*
+2	*.pbxuser
+3	*.perspective*
+4	*.pyc
+5	build/
+6	/WebKitBuild/
+7	autoinstall.cache.d
+8	WebKitTools/Scripts/webkitpy/thirdparty/autoinstalled
+9	
+10	# Ignore common tool auto-generated files.
+11	.gdb_history
+12	tags
+13	
+14	# Ignore Chromium projects auto-generated from .gyp files:
+15	JavaScriptCore/JavaScriptCore.gyp/*.Makefile
+16	JavaScriptCore/JavaScriptCore.gyp/*.mk
+17	JavaScriptCore/JavaScriptCore.gyp/*.sln
+18	JavaScriptCore/JavaScriptCore.gyp/*.vcproj*
+19	JavaScriptCore/JavaScriptCore.gyp/JavaScriptCore.xcodeproj
+20	WebCore/WebCore.gyp/*.Makefile
+21	WebCore/WebCore.gyp/*.mk
+22	WebCore/WebCore.gyp/*.rules
+23	WebCore/WebCore.gyp/*.sln
+24	WebCore/WebCore.gyp/*.tmp
+25	WebCore/WebCore.gyp/*.vcproj*
+26	WebCore/WebCore.gyp/WebCore.xcodeproj
+27	WebKit/chromium/*.Makefile
+28	WebKit/chromium/*.mk
+29	WebKit/chromium/*.sln
+30	WebKit/chromium/*.vcproj*
+31	WebKit/chromium/WebKit.xcodeproj
+32	WebKitTools/DumpRenderTree/DumpRenderTree.gyp/DumpRenderTree.xcodeproj
+33	
+34	# Ignore status files that manage Chromium dependencies.
+35	WebKit/chromium/.gclient
+36	WebKit/chromium/.gclient_entries
+37	
+38	# Ignore Chromium dependencies
+39	WebKit/chromium/base/
+40	WebKit/chromium/gfx/
+41	WebKit/chromium/googleurl/
+42	WebKit/chromium/net/
+43	WebKit/chromium/sdch/
+44	WebKit/chromium/skia/
+45	WebKit/chromium/testing/
+46	WebKit/chromium/third_party/
+47	WebKit/chromium/tools/
+48	WebKit/chromium/v8/
+49	WebKit/chromium/xcodebuild/
+50	WebKit/chromium/.gclient
+51	WebKit/chromium/.gclient_entries
+52	WebKit/chromium/app/
+53	WebKit/chromium/chromium_deps/
+54	WebKit/chromium/gpu/
+55	WebKit/chromium/media/
+56	WebKit/chromium/webkit/
+57	WebKit/chromium/printing/
+58	
+59	# Ignore compiled java tests:
+60	LayoutTests/java/*.class
+61	
+62	# Though the GTK build builds in a subdirectory, autogen.sh still deposits
+63	# a few files into the source tree.
+64	/aclocal.m4
+65	/autom4te.cache
+66	/autotools/compile
+67	/autotools/config.guess
+68	/autotools/config.sub
+69	/autotools/depcomp
+70	/autotools/gtk-doc.m4
+71	/autotools/install-sh
+72	/autotools/libtool.m4
+73	/autotools/ltmain.sh
+74	/autotools/ltoptions.m4
+75	/autotools/ltsugar.m4
+76	/autotools/ltversion.m4
+77	/autotools/lt~obsolete.m4
+78	/autotools/missing
+79	/autotoolsconfig.h.in
+80	/configure
+81	/GNUmakefile.in
+82	/WebKit/gtk/docs/GNUmakefile.in
+83	/gtk-doc.make
+84	/INSTALL
+85	/README
