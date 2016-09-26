@@ -1,1 +1,0 @@
-# a-viktorov.github.io
