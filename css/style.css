@@ -1062,7 +1062,7 @@ span {
 
 @media screen {
   .site-footer {
-    text-align: right;
+    text-align: left;
     font-size: 0.65rem;
     opacity: 0.8;
   }
